@@ -1,0 +1,27 @@
+{
+	"common":{
+        "home":"home"
+	},
+    "wallet":{
+        "connectWallet":"Connect Wallet",
+        "nonCustodialAndSecure":"Non-custodial & Secure",
+        "confirmationInformation":"We do not own your private keys and cannot access your funds without your confirmation.",
+        "mobileInvestmentsInformation":"Please open iob.fi on a PC/Mac to view your investment balances and to make new investments."
+    },
+    "investments":{
+        "myInvestments":"My Investments",
+        "myTotalInvestmentValue":"My Total Investment Value",
+        "managedPoolAssets":"Managed Pool Assets",
+        "name":"Name",
+        "symbol":"Symbol",
+        "address":"Address",
+        "total":"Total",
+        "USDValue":"USD Value",
+        "actions":"Actions",
+        "from":"From",
+        "to":"To",
+        "amount":"Amount",
+        "assets":"Assets",
+        "mainnetNetworkSupportOnly":"MAINNET NETWORK SUPPORTED ONLY"
+    }
+}

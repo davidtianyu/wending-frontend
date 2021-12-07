@@ -209,6 +209,7 @@
 </template>
 <script>
 import { mapGetters } from "vuex";
+import Bus from "@/components/bus/Bus";
 import detectEthereumProvider from '@metamask/detect-provider';
 export default {
     data(){
@@ -232,6 +233,17 @@ export default {
     mounted(){
         this.checkMetaMask();
         this.watchEvent();
+        // 监听当前价的事件
+        Bus.$on('isShowConnectWalletMenu', data => {
+            if (this.responsive == 'PC' || this.responsive == 'pad') {
+                this.isShowConnectWalletMenu = data;
+            } else {
+                this.walletConnectDialog = data;
+            }
+        })
+        Bus.$on('onRequestAccounts', data => {
+            this.requestAccounts();
+        })
     },
     computed: {
         ...mapGetters(["responsive", "snackbarMessage"]),

@@ -1,0 +1,27 @@
+{
+	"common":{
+        "home":"主页"
+    },
+    "wallet":{
+        "connectWallet":"连接钱包",
+        "nonCustodialAndSecure":"非托管和安全",
+        "confirmationInformation":"我们不拥有您的私钥，未经您的确认无法访问您的资金。",
+        "mobileInvestmentsInformation":"请在 PC/Mac 上打开 iob.fi 以查看您的投资余额并进行新投资。"
+    },
+    "investments":{
+        "myInvestments":"我的投资",
+        "myTotalInvestmentValue":"我的投资总价值",
+        "managedPoolAssets":"管理的资金池资产",
+        "name":"名称",
+        "symbol":"符号",
+        "address":"地址",
+        "total":"总计",
+        "USDValue":"美元价值",
+        "actions":"操作",
+        "from":"从",
+        "to":"到",
+        "amount":"数量",
+        "assets":"资产",
+        "mainnetNetworkSupportOnly":"仅支持主网"
+    }
+}
