@@ -1,0 +1,52 @@
+.mainnet{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(16, 186, 151);
+}
+
+.ropsten{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(233, 21, 80, 0.7);
+}
+.kovan{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(233, 21, 80);
+}
+
+.rinkeby{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(235, 179, 63);
+}
+.goerli{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(48, 153, 242);
+}
+
+.ropsten--text{
+    color:  rgb(233, 21, 80, 0.7) !important;
+    caret-color: rgb(233, 21, 80, 0.7) !important;
+}
+  
+.kovan--text{
+    color:  rgb(233, 21, 80) !important;
+    caret-color: rgb(233, 21, 80) !important;
+}
+  
+.rinkeby--text{
+    color:  rgb(235, 179, 63) !important;
+    caret-color: rgb(235, 179, 63) !important;
+}
+  
+.goerli--text{
+    color:  rgb(48, 153, 242) !important;
+    caret-color: rgb(48, 153, 242) !important;
+}
